@@ -1,9 +1,6 @@
 ﻿Console.WriteLine("Input  positive integer and press Enter: ");
 int n = int.Parse(Console.ReadLine());
-int count = 1;
-while(count <= n)
+for(int count = 1; count <= n; count++)
 {
-    int result = count * count;
-    Console.WriteLine(result);
-    count++;
+    Console.Write($"{count * count} ");
 }
